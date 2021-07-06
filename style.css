@@ -1,0 +1,106 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* Setup */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(233,47%,7%);
+    color: #fff;
+    font-family: 'Inter',  sans-serif;
+}
+
+
+/* Container */
+.container {
+    margin: 100px auto;
+    width: 70%;
+    background-color: hsl(244,38%,16%);
+    border-radius: 5px;
+    height: auto;
+}
+
+/* CONTENT SECTION */
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.left-content h1 {
+    font-size: 36px;
+    color: hsl(0,0%,100%);
+    font-weight: 600;
+}
+.main-content {
+    height: auto;
+}
+.left-content span {
+    color:#8c1aff;
+}
+
+.subtitle, .content-footer-cards {
+    width: 80%;
+}
+
+.subtitle {
+    padding: 40px 0;
+}
+
+.subtitle h5 {
+    font-weight: lighter;
+    line-height: 23px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.content-footer-cards {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.footer-content {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.footer-content h2 {
+    font-size: 18px;
+}
+.footer-content h5 {
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+/* LEFT CONTENT */
+.left-content {
+    width: 50%;
+}
+
+.main-content-left {
+    padding: 40px;
+}
+
+.right-content {
+    width: 50%;
+    border-radius: 5px;
+    height: auto;
+    mix-blend-mode: luminosity;
+    background: hsl(277,64%,61%);
+}
+
+.right-content img {
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8px;
+    height: auto;
+    width: 100%;
+}
+
